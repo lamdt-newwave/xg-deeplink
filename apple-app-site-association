@@ -1,0 +1,56 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "NCSD4BKJ5D.fan.pasch.warps.dev",
+        "paths": [
+          "NOT /_/*",
+          "/*"
+        ]
+      },
+      {
+        "appID": "NCSD4BKJ5D.fan.pasch.xg.dev",
+        "paths": [
+          "NOT /_/*",
+          "/*"
+        ]
+      },
+      {
+        "appID": "6CDL88Q495.fan.pasch.MonstaXHouse",
+        "paths": [
+          "NOT /_/*",
+          "/*"
+        ]
+      },
+      {
+        "appID": "team-pasch.fan.pasch.warps.ios",
+        "paths": [
+          "NOT /_/*",
+          "/*"
+        ]
+      },
+      {
+        "appID": "NCSD4BKJ5D.fan.pasch.daice.dev",
+        "paths": [
+          "NOT /_/*",
+          "/*"
+        ]
+      },
+      {
+        "appID": "NCSD4BKJ5D.fan.pasch.teamayu.dev",
+        "paths": [
+          "NOT /_/*",
+          "/*"
+        ]
+      },
+      {
+        "appID": "NCSD4BKJ5D.fan.pasch.kalenanzai.dev",
+        "paths": [
+          "NOT /_/*",
+          "/*"
+        ]
+      }
+    ]
+  }
+}

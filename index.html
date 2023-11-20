@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Page</title>
+</head>
+<body>
+    <h1>Redirect Page</h1>
+    <p id="redirectMessage">Redirecting...</p>
+
+    <script>
+        // Function to extract query parameters from the URL
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Function to handle the request and redirect
+        function handleRequest() {
+            // Get parameters from the URL
+            const apnParam = getQueryParam('apn');
+            const isiParam = getQueryParam('isi');
+            const ibiParam = getQueryParam('ibi');
+            const efrParam = getQueryParam('efr');
+            const linkParam = getQueryParam('link');
+
+            // Display a message
+            const redirectMessage = document.getElementById('redirectMessage');
+            redirectMessage.innerText = 'Redirecting...';
+
+            // Perform any additional processing if needed
+
+            // Redirect to the provided link after a delay (e.g., 2 seconds)
+            setTimeout(function() {
+                window.location.href = linkParam;
+            }, 2000);
+        }
+
+        // Call the function when the page loads
+        window.onload = handleRequest;
+    </script>
+</body>
+</html>
